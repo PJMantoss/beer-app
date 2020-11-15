@@ -43,3 +43,10 @@ header {
 .container {
     padding: 1rem 2rem;
 }
+
+/* filters */
+.card {
+    display: flex;
+    background: white;
+    box-shadow: var(--shadow);
+}
