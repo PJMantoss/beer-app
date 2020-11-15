@@ -113,3 +113,9 @@ input + svg {
 .filter-all:focus + span {
     color: var(--blue)
 }
+
+.beer:hover,
+.beer:checked + span,
+.beer:focus + span {
+    fill: var(--orange);
+}
