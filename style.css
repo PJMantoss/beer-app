@@ -71,3 +71,10 @@ header {
     font-size: 1.3rem;
     padding: .3rem;
 }
+
+.filter {
+    background: var(--black);
+    border: 3px solid var(--blue);
+    border-radius: 2.2rem;
+    padding: .4rem .4rem .1rem .4rem;
+}
