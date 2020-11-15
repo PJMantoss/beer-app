@@ -89,3 +89,10 @@ header {
     padding: .5rem 1rem;
     color: var(--off-white);
 }
+
+svg {
+    fill: var(--off-white);
+    height: 2rem;
+    width: 2rem;
+    margin: .5rem;
+}
