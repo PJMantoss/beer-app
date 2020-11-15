@@ -38,3 +38,8 @@ header {
     font-size: 2rem;
     font-weight: bold;
 }
+
+/* Main container */
+.container {
+    padding: 1rem 2rem;
+}
