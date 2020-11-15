@@ -7,3 +7,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Custom styles */
+
+:root {
+    --off-white: #f2f2f2;
+    --black: rgba(0,0,16,.8);
+    --blue: #0365c0;
+}
