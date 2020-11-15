@@ -119,3 +119,9 @@ input + svg {
 .beer:focus + span {
     fill: var(--orange);
 }
+
+.hops:hover,
+.hops:checked + svg,
+.hops:focus + svg {
+    fill: var(--green);
+}
