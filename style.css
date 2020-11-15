@@ -83,3 +83,9 @@ header {
     display: flex;
     align-items: center;
 }
+
+.filter-form + span {
+    font-size: 2rem;
+    padding: .5rem 1rem;
+    color: var(--off-white);
+}
