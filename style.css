@@ -155,4 +155,6 @@ input + svg {
     grid-gap: 1rem;
 }
 
-.beer-wrapper {}
+.beer-wrapper {
+    justify-content: center;
+}
