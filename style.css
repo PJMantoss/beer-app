@@ -135,4 +135,6 @@ input + svg {
     color: var(--off-white);
     font-size: 2rem;
     padding: 0 .8rem;
+    cursor: pointer;
+    transition: color .3s ease;
 }
