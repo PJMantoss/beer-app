@@ -134,4 +134,5 @@ input + svg {
     background: transparent;
     color: var(--off-white);
     font-size: 2rem;
+    padding: 0 .8rem;
 }
