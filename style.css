@@ -147,3 +147,8 @@ input + svg {
     cursor: default;
     color: var(--disabled);
 }
+
+/* Styling for beers */
+.beers {
+    display: grid;
+}
