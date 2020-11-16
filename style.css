@@ -125,3 +125,11 @@ input + svg {
 .hops:focus + svg {
     fill: var(--green);
 }
+
+/* Pagination */
+
+.page-btn {
+    border: none;
+    outline: none;
+    background: transparent;
+}
