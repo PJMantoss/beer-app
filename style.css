@@ -142,3 +142,8 @@ input + svg {
 .page-btn:hover {
     color: var(--blue);
 }
+
+.page-btn:disabled {
+    cursor: default;
+    color: var(--disabled);
+}
