@@ -138,3 +138,7 @@ input + svg {
     cursor: pointer;
     transition: color .3s ease;
 }
+
+.page-btn:hover {
+    color: var(--blue);
+}
