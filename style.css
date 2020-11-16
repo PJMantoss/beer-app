@@ -152,4 +152,7 @@ input + svg {
 .beers {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1pr));
+    grid-gap: 1rem;
 }
+
+.beer-wrapper {}
