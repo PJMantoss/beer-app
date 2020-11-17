@@ -19,7 +19,7 @@ filterABV.addEventListener("change", e => {
             optionsABV = "&abv_lt=4.6";
             break
         case "medium":
-            optionsABV = ""
+            optionsABV = "&abv_gt=4.5&abv_lt=7.6";
             break
         case "strong":
             optionsABV = ""
