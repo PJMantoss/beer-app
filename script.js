@@ -5,5 +5,6 @@ const filterIBU = document.getElementById("filterIBU");
 const pagetText = document.getElementById("pageNumber");
 const prevPage = document.getElementById("prevPage");
 const nextPage = document.getElementById("nextPage");
+let optionsABV = "", optionsIBU = "", page = 1;
 
 // Filters
