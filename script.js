@@ -1,5 +1,5 @@
 // Variables
-const url = "https://api.punkapi.com/v2/beers?page=";
+const api = "https://api.punkapi.com/v2/beers?page=";
 const filterABV = document.getElementById("filterABV");
 const filterIBU = document.getElementById("filterIBU");
 const pagetText = document.getElementById("pageNumber");
@@ -24,5 +24,20 @@ filterABV.addEventListener("change", e => {
         case "strong":
             optionsABV = "&abv_gt=7.5";
             break
+    }
+
+    page = 1;
+    getBeers();
+});
+
+filterIBU.addEventListener("change", e => {
+    const value = e.target.value;
+
+    switch(value){
+        case "all":
+            optionsIBU = "";
+            break
+        case "weak":
+            optionsIBU = "";
     }
 })
