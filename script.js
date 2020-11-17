@@ -38,12 +38,13 @@ filterIBU.addEventListener("change", e => {
             optionsIBU = "";
             break
         case "weak":
-            optionsIBU = "";
+            optionsIBU = "&ibu_lt=35";
             break
         case "medium":
             optionsIBU = "";
             break
         case "strong":
             optionsIBU = "";
+            break
     }
 })
