@@ -47,4 +47,7 @@ filterIBU.addEventListener("change", e => {
             optionsIBU = "&ibu_gt=74";
             break
     }
-})
+
+    page =1;
+    getBeers();
+});
