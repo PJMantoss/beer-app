@@ -51,3 +51,5 @@ filterIBU.addEventListener("change", e => {
     page =1;
     getBeers();
 });
+
+async function getBeers(){}
