@@ -52,4 +52,10 @@ filterIBU.addEventListener("change", e => {
     getBeers();
 });
 
-async function getBeers(){}
+async function getBeers(){
+    const url = api + optionsABV + optionsIBU;
+
+    // fetch
+
+    // Pagination
+}
