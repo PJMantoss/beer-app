@@ -13,14 +13,14 @@ filterABV.addEventListener("change", e => {
 
     switch(value){
         case "all":
-            optionsABV = ""
-            break;
+            optionsABV = "";
+            break
         case "weak":
-            optionsABV = ""
-            break;
+            optionsABV = "&abv_lt=4.6";
+            break
         case "medium":
             optionsABV = ""
-            break;
+            break
         case "strong":
             optionsABV = ""
             break
