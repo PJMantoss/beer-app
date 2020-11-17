@@ -11,5 +11,12 @@ let optionsABV = "", optionsIBU = "", page = 1;
 filterABV.addEventListener("change", e => {
     const value = e.target.value;
 
-    switch(value){}
+    switch(value){
+        case "all":
+            optionsABV = ""
+            break;
+        case "weak":
+            optionsABV = ""
+            break;
+    }
 })
