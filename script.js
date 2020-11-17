@@ -8,4 +8,8 @@ const nextPage = document.getElementById("nextPage");
 let optionsABV = "", optionsIBU = "", page = 1;
 
 // Filters
-filterABV.addEventListener("change", e => {})
+filterABV.addEventListener("change", e => {
+    const value = e.target.value;
+
+    switch(value){}
+})
