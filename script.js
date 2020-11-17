@@ -56,6 +56,10 @@ async function getBeers(){
     const url = api + optionsABV + optionsIBU;
 
     // fetch
+    const beerPromise = await fetch(url);
+    const beers = await beerPromise.json();
 
     // Pagination
+
+    // Render Data
 }
