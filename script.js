@@ -18,5 +18,11 @@ filterABV.addEventListener("change", e => {
         case "weak":
             optionsABV = ""
             break;
+        case "medium":
+            optionsABV = ""
+            break;
+        case "strong":
+            optionsABV = ""
+            break
     }
 })
