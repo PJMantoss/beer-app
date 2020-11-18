@@ -169,3 +169,8 @@ input + svg {
     text-align: center;
     width: 100%;
 }
+
+.beer .beer__img {
+    margin: auto;
+    height: 20rem;
+}
