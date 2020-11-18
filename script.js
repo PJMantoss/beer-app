@@ -63,6 +63,18 @@ async function getBeers(){
     // Pagination
     pageText.innerText = page;
 
+    if(page  === 1){
+        prevPage.disabled = true;
+    } else {
+        prevPage.disabled = false;
+    }
+
+    if(beers.length < 25){
+        nextPage.disabled = true;
+    } else {
+        nextPage.disabled = false;
+    }
+
     // Render Data
     const beersDiv = document.querySelector(".beers");
 
