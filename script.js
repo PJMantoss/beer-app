@@ -71,10 +71,10 @@ async function getBeers(){
             <div class="beer-wrapper card">
                 <img class="beer__img" src=${beer.image_url}>
                 <div class="beer">
-                    <h3>${}</h3>
+                    <h3>${beer.name}</h3>
                     <span class="beer__img">
-                        <span>ABV: ${}</span>
-                        <span>IBU: ${}</span>
+                        <span>ABV: ${beer.abv}</span>
+                        <span>IBU: ${beer.ibu}</span>
                     </span>
                 </div>
             </div>
