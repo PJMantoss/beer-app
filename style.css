@@ -193,3 +193,11 @@ input + svg {
     opacity: 0;
     transition: opacity .8s ease;
 }
+
+.beer__content:hover {
+    opacity: 0.92;
+}
+
+.beer__name {
+    padding: 0 auto .5rem auto;;
+}
