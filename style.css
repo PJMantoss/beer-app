@@ -186,4 +186,7 @@ input + svg {
     left: 0;
     padding: 1.5rem;
     width: calc(100% - (1.5rem * 2));
+    height: calc(100% - (1.5rem * 2));
+    background: white;
+    overflow: auto;
 }
