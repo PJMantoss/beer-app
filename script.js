@@ -63,5 +63,13 @@ async function getBeers(){
 
     // Render Data
     const beerDiv = document.querySelector(".beers");
+
+    let beerHtml = "";
+
+    beers.forEach(beer => {
+        beerHtml = `
+            
+        `
+    })
 }
 getBeers();
