@@ -174,3 +174,8 @@ input + svg {
     margin: auto;
     height: 20rem;
 }
+
+.beer .beer__info {
+    display: flex;
+    justify-content: space-between;
+}
