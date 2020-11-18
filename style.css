@@ -199,5 +199,8 @@ input + svg {
 }
 
 .beer__name {
-    padding: 0 auto .5rem auto;;
+    margin: 0 auto .5rem auto;
+    font-family: "Old Standard TT", serif;
+    font-size: 24rem;
+    line-height: 1.07em;
 }
