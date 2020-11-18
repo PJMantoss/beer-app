@@ -78,10 +78,10 @@ async function getBeers(){
                     </span>
                 </div>
                 <div class="beer__content">
-                    <div class=""></div>
-                    <div class=""></div>
-                    <div class=""></div>
-                    <div class=""></div>
+                    <div class="beer__name"></div>
+                    <div class="beer__tagline"></div>
+                    <div class="beer__description"></div>
+                    <div class="beer__food-pairing"></div>
                 </div>
             </div>
         `;
