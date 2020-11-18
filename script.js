@@ -98,7 +98,7 @@ async function getBeers(){
                     <div class="beer__tagline">${beer.tagline}</div>
                     <div class="beer__description">${beer.description}</div>
                     <div class="beer__food-pairing">
-                        Pair with: ${beer.food-PerformanceResourceTiming.join(", ")}
+                        Pair with: ${beer.food_pairing.join(", ")}
                     </div>
                 </div>
             </div>
@@ -106,7 +106,7 @@ async function getBeers(){
     });
 
     beersDiv.innerHTML = beerHtml;
-}
+};
 
 //Pagination
 prevPage.addEventListener("click", () => {
