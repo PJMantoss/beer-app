@@ -78,12 +78,14 @@ async function getBeers(){
     // Render Data
     const beersDiv = document.querySelector(".beers");
 
+    let genericBottle = 'https://cdn.pixabay.com/photo/2014/12/22/00/04/bottle-576717_960_720.png';
+
     let beerHtml = "";
 
     beers.forEach(beer => {
         beerHtml += `
             <div class="beer-wrapper card">
-                <img class="beer__img" src=${beer.image_url}>
+                <img class="beer__img" src=${beer.image_url ? beer.image_url : genericBottle}>
                 <div class="beer">
                     <h3>${beer.name}</h3>
                     <span class="beer__img">
@@ -96,7 +98,7 @@ async function getBeers(){
                     <div class="beer__tagline">${beer.tagline}</div>
                     <div class="beer__description">${beer.description}</div>
                     <div class="beer__food-pairing">
-                        Pair with: ${beer.food-PerformanceResourceTiming.join(",")}
+                        Pair with: ${beer.food-PerformanceResourceTiming.join(", ")}
                     </div>
                 </div>
             </div>
