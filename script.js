@@ -73,7 +73,7 @@ async function getBeers(){
                 <div class="beer">
                     <h3>${beer.name}</h3>
                     <span class="beer__img">
-                        <span>ABV: ${beer.abv}</span>
+                        <span>ABV: ${beer.abv}%</span>
                         <span>IBU: ${beer.ibu}</span>
                     </span>
                 </div>
@@ -91,4 +91,17 @@ async function getBeers(){
 
     beerDiv.innerHTML = beerHtml;
 }
+
+//Pagination
+prevPage.addEventListener("click", e => {
+    page--;
+    getBeers();
+});
+
+nextPage.addEventListener("click", e => {
+    page++;
+    getBeers();
+});
+
+//initial
 getBeers();
