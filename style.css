@@ -218,3 +218,9 @@ input + svg {
     font-size: .9rem;
     line-height: 1.3rem;
 }
+
+.beer__food-pairing {
+    font-style: italic;
+    font-size: .9rem;
+    line-height: 1.3rem;
+}
