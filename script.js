@@ -67,8 +67,17 @@ async function getBeers(){
     let beerHtml = "";
 
     beers.forEach(beer => {
-        beerHtml = `
-            
+        beerHtml += `
+            <div class="beer-wrapper card">
+                <img class="beer__img" src=${beer.image_url}>
+                <div class="beer">
+                    <h3>${}</h3>
+                    <span class="beer__img">
+                        <span>ABV: ${}</span>
+                        <span>IBU: ${}</span>
+                    </span>
+                </div>
+            </div>
         `
     })
 }
