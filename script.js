@@ -59,10 +59,12 @@ async function getBeers(){
     const beerPromise = await fetch(url);
     const beers = await beerPromise.json();
     //console.log(beers[0]);
+
     // Pagination
+    pageText.innerText = page;
 
     // Render Data
-    const beerDiv = document.querySelector(".beers");
+    const beersDiv = document.querySelector(".beers");
 
     let beerHtml = "";
 
@@ -89,16 +91,16 @@ async function getBeers(){
         `;
     });
 
-    beerDiv.innerHTML = beerHtml;
+    beersDiv.innerHTML = beerHtml;
 }
 
 //Pagination
-prevPage.addEventListener("click", e => {
+prevPage.addEventListener("click", () => {
     page--;
     getBeers();
 });
 
-nextPage.addEventListener("click", e => {
+nextPage.addEventListener("click", () => {
     page++;
     getBeers();
 });
