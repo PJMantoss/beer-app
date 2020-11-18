@@ -203,4 +203,5 @@ input + svg {
     font-family: "Old Standard TT", serif;
     font-size: 24rem;
     line-height: 1.07em;
+    letter-spacing: -0.015em;
 }
