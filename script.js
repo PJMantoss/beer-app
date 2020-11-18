@@ -77,8 +77,16 @@ async function getBeers(){
                         <span>IBU: ${beer.ibu}</span>
                     </span>
                 </div>
+                <div class="beer__content">
+                    <div class=""></div>
+                    <div class=""></div>
+                    <div class=""></div>
+                    <div class=""></div>
+                </div>
             </div>
-        `
-    })
+        `;
+    });
+
+    beerDiv.innerHTML = beerHtml;
 }
 getBeers();
