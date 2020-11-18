@@ -210,5 +210,11 @@ input + svg {
     padding-bottom: .5rem;
     font-family: "Old Standard TT", serif;
     font-style: italic;
-    border-bottom: 2px solid var(--blue)
+    border-bottom: 2px solid var(--blue);
+}
+
+.beer__description {
+    margin: 1rem 0;
+    font-size: .9rem;
+    line-height: 1.3rem;
 }
