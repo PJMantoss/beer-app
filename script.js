@@ -58,8 +58,10 @@ async function getBeers(){
     // fetch
     const beerPromise = await fetch(url);
     const beers = await beerPromise.json();
-
+    //console.log(beers[0]);
     // Pagination
 
     // Render Data
+    const beerDiv = document.querySelector(".beers");
 }
+getBeers();
