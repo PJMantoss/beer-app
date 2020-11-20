@@ -53,7 +53,7 @@ filterIBU.addEventListener("change", e => {
 });
 
 async function getBeers(){
-    const url = api + optionsABV + optionsIBU;
+    const url = api + page + optionsABV + optionsIBU;
 
     // fetch
     const beerPromise = await fetch(url);
