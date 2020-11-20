@@ -30,7 +30,7 @@ filterABV.addEventListener("change", e => {
     getBeers();
 });
 
-filterIBU.addEventListener("change", e => {
+filterIBU.addEventListener('change', e => {
     const value = e.target.value;
 
     switch(value){
@@ -48,7 +48,7 @@ filterIBU.addEventListener("change", e => {
             break
     }
 
-    page =1;
+    page = 1;
     getBeers();
 });
 
