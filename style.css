@@ -227,7 +227,7 @@ input + svg {
 
 /* Footer */
 footer {
-    background:#3454805e;
+    background:#34548054;
     color: #000;
     text-align: center;
     padding: 3em 0;
@@ -249,10 +249,10 @@ footer {
     font-family: "Old Standard TT", serif;
     font-weight: 400;
     font-size: 12px;
-    color: white
+    color: #000;
 }
 
 #love > img {
-    width: 40px;
-    padding: 8px;
+    width: 30px;
+    padding: 0 6px 8px;
 }
