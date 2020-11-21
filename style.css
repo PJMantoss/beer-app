@@ -226,6 +226,13 @@ input + svg {
 }
 
 /* Footer */
+footer {
+    background:#3454805e;
+    color: #000;
+    text-align: center;
+    padding: 3em 0;
+}
+
 #love {
     display: flex;
     justify-content: center;
@@ -234,7 +241,8 @@ input + svg {
 }
 
 #love a {
-    color: cyan;
+    color: rgb(9, 64, 216);
+    text-decoration: none;
 }
 
 #love > span {
