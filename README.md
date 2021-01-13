@@ -1,3 +1,8 @@
-Beer Application made with HTML, CSS Grid, JavaScript and Punk API
+Beer Application
+
+TECH OVERVIEW
+- HTML/CSS
+- JavaScript (Async/Await)
+- Punk API
 
 DATE: 21-November-2020
