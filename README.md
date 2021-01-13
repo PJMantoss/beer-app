@@ -1,4 +1,4 @@
-Beer Application that pulls in data of beers from the Punk API and filters the information based on Alcoholic volume and hoppiness.
+Beer App is an application that pulls in data of beers from the Punk API and filters the information based on Alcoholic volume and hoppiness.
 
 This project was part of the Frontend Developer Career Path program at Scrimba. The aim of the project is to demonstrate the skills of working with APIs and making multiple Fetch requests using Asynchronous JavaScript. 
 
