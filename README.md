@@ -16,6 +16,6 @@ Lastly I created an Async function called getBeers() that uses fetch to pull in 
 ROADBLOCK ENCOUNTERED:
 I had difficulty getting and displaying the individual data (Name, Alcohol volume and Hoppiness) from the larger data object.
 
-SOLUTION: To solve the problem I used the forEach() array method to iterate through the beer object data from the Punk APII first built a new div container (in JavaScript) with a child div to hold a beer image and the required information.
+SOLUTION: To solve the problem I used the forEach() array method to iterate through the beer object data from the Punk API and display them in a new div container (built in JavaScript). The new div has a child div with a span to hold a beer image and the required information.
 
 DATE: 21-November-2020
