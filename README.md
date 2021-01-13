@@ -7,14 +7,14 @@ TECH OVERVIEW
 - JavaScript (Async/Await)
 - Punk API
 
-I started by building out the structure of the app (HTML), creating div containers for filters and cards to hold the beer data (Image, Alcohol volume and Hoppiness), pagination buttons and footer.
+I started by building out the structure of the app (HTML), creating div containers for filters and cards to hold the beer data (Image, Name, Alcohol volume and Hoppiness), pagination buttons and footer.
 
 I then added styling to the document, header, filters, cards, footer and pagination buttons.
 
-Lastly I created an Async function called getBeers() that uses fetch to pull in the beer data from the Punk API. Then I rendered the beer information (Image, Alcohol volume and Hoppiness) in a div that already exist in HTML.
+Lastly I created an Async function called getBeers() that uses fetch to pull in the beer data from the Punk API. Then I rendered the beer information (Image, Name, Alcohol volume and Hoppiness) in a div that already exist in HTML.
 
 CHALLENGES:
-I had
+I had difficulty pulling out the individual data (Name, Alcohol volume and Hoppiness)
 
 SOLUTIONS:
 
