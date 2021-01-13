@@ -11,9 +11,10 @@ I started by building out the structure of the app (HTML), creating div containe
 
 I then added styling to the document, header, filters, cards, footer and pagination buttons.
 
-Lastly I created an Async function called getBeers() that uses fetch to pull in the beer data from the Punk API. Then I rendered the beer information (Image, Alcohol volume and Hoppiness) in a div created earlier in the HTML file.
+Lastly I created an Async function called getBeers() that uses fetch to pull in the beer data from the Punk API. Then I rendered the beer information (Image, Alcohol volume and Hoppiness) in a div that already exist in HTML.
 
 CHALLENGES:
+I had
 
 SOLUTIONS:
 
