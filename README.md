@@ -13,9 +13,9 @@ I then added styling to the document, header, filters, cards, footer and paginat
 
 Lastly I created an Async function called getBeers() that uses fetch to pull in the beer data from the Punk API. Then I rendered the beer information (Image, Name, Alcohol volume and Hoppiness) in a div that already exist in HTML.
 
-CHALLENGES:
-I had difficulty pulling out the individual data (Name, Alcohol volume and Hoppiness)
+ROADBLOCK ENCOUNTERED:
+I had difficulty pulling out the individual data (Name, Alcohol volume and Hoppiness) from the larger data object.
 
-SOLUTIONS:
+SOLUTION: To solve the problem I used the forEach() array method
 
 DATE: 21-November-2020
